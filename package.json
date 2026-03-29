@@ -1,20 +1,31 @@
 {
   "name": "linkhub",
   "version": "1.0.0",
-  "description": "💻🚀✨ A simple Node.js project to create a custom page with all your important links.",
-  "main": "src/app.js",
+  "description": "LinkHub\r 💻🚀✨ A simple Node.js project to create a custom page with all your important links.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js"
+    "dev":  "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoPrandi/LinkHub.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DiegoPrandi/LinkHub/issues"
+  },
+  "homepage": "https://github.com/DiegoPrandi/LinkHub#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "@prisma/client": "^7.6.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "prisma": "^7.6.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.14"
   }
 }
